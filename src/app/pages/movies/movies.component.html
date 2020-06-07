@@ -1,0 +1,4 @@
+<p>List of movies</p>
+<div *ngFor="let movie of movies">
+  <a routerLink="/movies/{{ movie.id }}">{{ movie.name }}</a>
+</div>
