@@ -11,7 +11,7 @@ const routes: Routes = [
     component: MoviesComponent,
   },
   {
-    path: 'movies/:id',
+    path: 'movies/:movieId',
     component: MoviesDetailComponent,
   },
   {
@@ -19,7 +19,7 @@ const routes: Routes = [
     component: SeriesComponent,
   },
   {
-    path: 'series/:id',
+    path: 'series/:seriesId',
     component: SeriesDetailComponent,
   },
 ];

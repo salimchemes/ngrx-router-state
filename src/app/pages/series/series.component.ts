@@ -7,7 +7,7 @@ import { series } from 'src/app/app.constants';
   styleUrls: ['./series.component.scss'],
 })
 export class SeriesComponent implements OnInit {
-  series: { id: number; name: string; release: number; link: string }[];
+  series: { id: string; name: string; release: number; link: string }[];
 
   constructor() {}
 

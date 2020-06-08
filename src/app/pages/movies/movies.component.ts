@@ -7,7 +7,7 @@ import { movies } from 'src/app/app.constants';
   styleUrls: ['./movies.component.scss'],
 })
 export class MoviesComponent implements OnInit {
-  movies: { id: number; name: string; release: number; link: string }[];
+  movies: { id: string; name: string; release: number; link: string }[];
 
   constructor() {}
 

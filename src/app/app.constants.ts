@@ -1,45 +1,41 @@
 export const movies = [
   {
-    id: 1,
+    id: '1-movie',
     name: 'Home Alone',
     release: 1991,
-    link: 'https://d3fa68hw0m2vcc.cloudfront.net/2b3/101461134.jpeg',
+    link: '/assets/ha.jpeg',
   },
   {
-    id: 2,
+    id: '2-movie',
     name: 'John Wick',
     release: 2015,
-    link:
-      'https://elpais.com/cultura/imagenes/2019/03/04/actualidad/1551659501_115674_1551659819_noticia_fotograma.jpg',
+    link: '/assets/jw.jpg',
   },
   {
-    id: 3,
+    id: '3-movie',
     name: 'Equalizer',
     release: 2014,
-    link: 'https://www.movienewsletters.net/photos/140326R1.jpg',
+    link: '/assets/eq.jpg',
   },
 ];
 
 export const series = [
   {
-    id: 1,
+    id: '1-series',
     name: 'Breaking Bad',
     release: 2008,
-    link:
-      'https://www.everettpotter.com/wp-content/uploads/2013/09/breakingbad.jpg',
+    link: '/assets/bb.jpg',
   },
   {
-    id: 2,
+    id: '2-series',
     name: 'Ray Donovan',
     release: 2013,
-    link:
-      'https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/media/articles/32226/ray-donovan_0.jpg',
+    link: '/assets/rd.jpg',
   },
   {
-    id: 3,
+    id: '3-series',
     name: 'Mr Robot',
     release: 2015,
-    link:
-      'https://pics.filmaffinity.com/Mr_Robot_Serie_de_TV-978107021-large.jpg',
+    link: '/assets/mr.jpg',
   },
 ];
