@@ -31,7 +31,6 @@ import { reducers } from './store/index';
     }),
     StoreRouterConnectingModule.forRoot({
       serializer: CustomSerializer,
-      stateKey: 'router',
     }),
   ],
   providers: [],
